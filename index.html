@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RGB-range</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="color-box"></div>
+    <button type="button" class="showBtn">rgb-slider</button>
+    <div class="rgb-range">
+      <fieldset class="fieldset">
+        <label for="r"></label>
+        <input type="range" class="range" min="0" max="255" id="r" step="1" value="0">
+        <output class="range_out" for="r" id="r_out">0</output>
+      </fieldset>
+      <fieldset class="fieldset">
+        <label for="g"></label>
+        <input type="range" class="range" min="0" max="255" id="g" step="1" value="0">
+        <output class="range_out" for="g" id="g_out">0</output>
+      </fieldset>
+      <fieldset class="fieldset">
+        <label for="b"></label>
+        <input type="range" class="range" min="0" max="255" id="b" step="1" value="0">
+        <output class="range_out" for="b" id="b_out">0</output>
+      </fieldset>
+    </div>
+    <div class="buttons">
+      <button type="reset" class="cancel-btn">cancel</button>
+      <button type="submit" class="submit-btn">submit</button>
+    </div>
+  </main>
+  <script src="./app.js"></script>
+</body>
+
+</html>
