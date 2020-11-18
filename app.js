@@ -10,7 +10,7 @@ let blue_out = d.querySelector('#b_out');
 let onSlidersBlockToggle = d.querySelector('.showBtn');
 let rgbRange = d.querySelector('.rgb-range');
 let colorValue = '';
-let defaultColor = 'rgb(255,255,255)';
+let defaultColor = 'rgb(0,0,0)';
 let submit = d.querySelector('.submit-btn');
 let cancel = d.querySelector('.cancel-btn');
 
